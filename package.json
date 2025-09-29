@@ -1,6 +1,6 @@
 {
   "name": "nestjs-opencnpj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NestJS library to fetch Brazilian CNPJ company data via OpenCNPJ.",
   "author": "José Marinho <josepaulomarinho2@gmail.com>",
   "license": "MIT",
@@ -35,9 +35,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bzuker/nestjs-library-template"
+    "url": "https://github.com/jusemarinho/nestjs-opencnpj"
   },
-  "bugs": "https://github.com/bzuker/nestjs-library-template",
+  "bugs": "https://github.com/jusemarinho/nestjs-opencnpj",
   "peerDependencies": {
     "@nestjs/common": "^8.0.0",
     "rxjs": "^7.x"
