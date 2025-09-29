@@ -1,0 +1,18 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "setupFiles": [
+    "reflect-metadata"
+  ],
+  "transformIgnorePatterns": [
+    "node_modules/(?!axios)"
+  ],
+  "moduleNameMapper": {
+    "^axios$": "<rootDir>/../node_modules/axios/dist/node/axios.cjs"
+  }
+}
