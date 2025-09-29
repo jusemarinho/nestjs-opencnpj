@@ -1,6 +1,6 @@
 {
   "name": "nestjs-opencnpj",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "NestJS library to fetch Brazilian CNPJ company data via OpenCNPJ.",
   "author": "José Marinho <josepaulomarinho2@gmail.com>",
   "license": "MIT",
@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "start:dev": "tsc -w",
-    "build": "tsc",
+    "build": "nest build -p tsconfig.build.json",
     "prepare": "npm run build",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test,__tests__}/**/*.ts\" --fix",
